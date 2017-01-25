@@ -3,4 +3,4 @@ machine:
     version: openjdk7
 compile:
   override:
-    - mvn build
+    - mvn deploy -Dusername=$USERNAME -Dpassword=$PASSWORD -DbuildNumber=$CIRCLE_BUILD_NUM -DbuildUrl=$CIRCLE_BUILD_URL
