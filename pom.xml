@@ -77,9 +77,9 @@
                                 <snapshotRepoKey>libs-snapshot-local</snapshotRepoKey>
                             </publisher>
                             <buildInfo>
-                                <buildName>travis-ci-demo</buildName>
+                                <buildName>circle-ci-demo</buildName>
                                 <buildNumber>${buildNumber}</buildNumber>
-                                <buildUrl>https://travis-ci.org/jainishshah17/github-travisci-artifactory</buildUrl>
+                                <buildUrl>${buildUrl}</buildUrl>
                             </buildInfo>
                             <licenses>
                                 <autoDiscover>true</autoDiscover>
