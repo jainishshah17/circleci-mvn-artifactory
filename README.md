@@ -40,3 +40,6 @@ properties are sent as shown above.
 ## Plugin documentation
 
 The full plugin documentation is available [here](https://www.jfrog.com/confluence/display/RTF/Maven+Artifactory+Plugin).
+
+
+##Circle CI
