@@ -1,6 +1,9 @@
 machine:
   java:
     version: openjdk7
+dependencies:
+  override:
+    - mvn --fail-never dependency:go-offline || true
 compile:
   override:
     - mvn clean package
