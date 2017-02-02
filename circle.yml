@@ -6,4 +6,4 @@ dependencies:
     - mvn --fail-never dependency:go-offline || true
 compile:
   override:
-    - mvn deploy -Dusername=$USERNAME -Dpassword=$PASSWORD -DbuildNumber=$CIRCLE_BUILD_NUM -DbuildUrl=$CIRCLE_BUILD_URL
+    - mvn deploy -Dusername=$ARTIFACTORY_USERNAME -Dpassword=$ARTIFACTORY_PASSWORD -DbuildNumber=$CIRCLE_BUILD_NUM -DbuildUrl=$CIRCLE_BUILD_URL
