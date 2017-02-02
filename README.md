@@ -1,4 +1,4 @@
-#Artifactory Integration with Travis-CI using Maven Artifactory Plugin
+#Artifactory Integration with Circle CI using Maven Artifactory Plugin
 
 ## Build Status
 
