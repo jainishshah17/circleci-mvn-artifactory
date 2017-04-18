@@ -1,12 +1,13 @@
-#Artifactory Integration with Circle CI using Maven Artifactory Plugin
+# Artifactory Integration with Circle CI using Maven Artifactory Plugin
+
+## Store build information and build artifacts to JFrog Artifactory
 
 ## Build Status
-
 [![CircleCI](https://circleci.com/gh/jainishshah17/circleci-mvn-artifactory.svg?style=svg)](https://circleci.com/gh/jainishshah17/circleci-mvn-artifactory)
 
 `To make this integration work you will need to have running Artifactory-pro/Artifactory SAAS/Artifactory Enterprise which is acccessible form outside.`
 
-##Steps to Integrate Circle CI with Artifactory.
+## Steps to Integrate Circle CI with Artifactory.
 
 Step 1:
 
