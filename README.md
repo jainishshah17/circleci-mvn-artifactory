@@ -5,7 +5,7 @@
 ## Build Status
 [![CircleCI](https://circleci.com/gh/jainishshah17/circleci-mvn-artifactory.svg?style=svg)](https://circleci.com/gh/jainishshah17/circleci-mvn-artifactory)
 
-`To make this integration work you will need to have running Artifactory-pro/Artifactory SAAS/Artifactory Enterprise which is acccessible form outside.`
+`To make this integration work you will need to have running Artifactory-pro/Artifactory SAAS.`
 
 ## Steps to Integrate Circle CI with Artifactory.
 
